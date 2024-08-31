@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root{
+    color-scheme: ligth dark;
+}
+
+html{
+    font-family: "Onest" , system-ui, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #00091D ;
+}
+@media(prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+} 
+
+#root{
+    color-scheme: ligth dark;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    
+}
